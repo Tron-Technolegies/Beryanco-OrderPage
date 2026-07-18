@@ -92,7 +92,7 @@ export default function App() {
 
             {/* Zomato Button */}
             <a
-              href="https://www.zomato.com"
+              href="https://link.zomato.com/xqzv/rshare?id=143303464675b9b4d"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-tap-effect group w-full h-14 sm:h-18 bg-brand-cream hover:bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.15)] flex items-center justify-center transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(203,28,43,0.15)] focus:outline-none focus:ring-4 focus:ring-brand-zomato/40 cursor-pointer"
