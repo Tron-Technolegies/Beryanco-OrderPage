@@ -81,15 +81,13 @@ export default function App() {
               />
             </a>
 
-            {/* Divider */}
-            <div className="flex items-center justify-center gap-4 my-1 px-2">
+            {/* <div className="flex items-center justify-center gap-4 my-1 px-2">
               <div className="h-[1px] bg-brand-cream/15 flex-grow"></div>
               <span className="text-[10px] uppercase tracking-[0.25em] text-brand-cream/40 font-bold select-none whitespace-nowrap">
                 or order via
               </span>
               <div className="h-[1px] bg-brand-cream/15 flex-grow"></div>
-            </div>
-
+            </div> */}
             {/* Zomato Button */}
             <a
               href="https://link.zomato.com/xqzv/rshare?id=143303464675b9b4d"
@@ -100,6 +98,32 @@ export default function App() {
               <img
                 src="/zomato.png"
                 alt="Zomato"
+                className="h-5.5 sm:h-7 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              />
+            </a>
+            {/* Ownly Button */}
+            <a
+              href="https://ownly.food/app/brand/BR439949"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-tap-effect group w-full h-14 sm:h-18 bg-[#ff4284] hover:bg-[#ff4284bd] rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.15)] flex items-center justify-center transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(255,140,0,0.15)] focus:outline-none focus:ring-4 focus:ring-orange-400/30 cursor-pointer"
+            >
+              <img
+                src="/ownly.png"
+                alt="ownly"
+                className="h-5.5 sm:h-7 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              />
+            </a>
+            {/* Toing Button */}
+            <a
+              href="https://www.toingit.com/menu/1400787?source=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-tap-effect group w-full h-14 sm:h-18 bg-green-700 hover:bg-green-800 rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.15)] flex items-center justify-center transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(22,163,74,0.15)] focus:outline-none focus:ring-4 focus:ring-green-500/30 cursor-pointer"
+            >
+              <img
+                src="/toing.png"
+                alt="toing"
                 className="h-5.5 sm:h-7 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </a>
